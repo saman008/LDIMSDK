@@ -1,0 +1,4082 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "LDIMSDK",
+    "printedName": "LDIMSDK",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LDBaseViewController",
+        "printedName": "LDBaseViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "titleLabel",
+            "printedName": "titleLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10titleLabelSo7UILabelCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_titleLabel",
+            "printedName": "$__lazy_storage_$_titleLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC28$__lazy_storage_$_titleLabel33_A2EAF8F6D6CDFACC355495275E6EA551LLSo7UILabelCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC28$__lazy_storage_$_titleLabel33_A2EAF8F6D6CDFACC355495275E6EA551LLSo7UILabelCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "backButton",
+            "printedName": "backButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10backButtonSo8UIButtonCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_backButton",
+            "printedName": "$__lazy_storage_$_backButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC28$__lazy_storage_$_backButton33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC28$__lazy_storage_$_backButton33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "navigationItemView",
+            "printedName": "navigationItemView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC014navigationItemC0So6UIViewCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_navigationItemView",
+            "printedName": "$__lazy_storage_$_navigationItemView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC032$__lazy_storage_$_navigationItemC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo6UIViewCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC032$__lazy_storage_$_navigationItemC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo6UIViewCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "titleView",
+            "printedName": "titleView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC05titleC0So6UIViewCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_titleView",
+            "printedName": "$__lazy_storage_$_titleView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC023$__lazy_storage_$_titleC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo6UIViewCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC023$__lazy_storage_$_titleC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo6UIViewCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "rightButton",
+            "printedName": "rightButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC11rightButtonSo8UIButtonCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_rightButton",
+            "printedName": "$__lazy_storage_$_rightButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC29$__lazy_storage_$_rightButton33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC29$__lazy_storage_$_rightButton33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "right1Button",
+            "printedName": "right1Button",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIButton",
+                "printedName": "UIKit.UIButton",
+                "usr": "c:objc(cs)UIButton"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC12right1ButtonSo8UIButtonCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_right1Button",
+            "printedName": "$__lazy_storage_$_right1Button",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIButton",
+                    "printedName": "UIKit.UIButton",
+                    "usr": "c:objc(cs)UIButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC30$__lazy_storage_$_right1Button33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC30$__lazy_storage_$_right1Button33_A2EAF8F6D6CDFACC355495275E6EA551LLSo8UIButtonCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "rightStackView",
+            "printedName": "rightStackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvs",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0Cvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0CvM",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC010rightStackC0So07UIStackC0CvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_rightStackView",
+            "printedName": "$__lazy_storage_$_rightStackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC028$__lazy_storage_$_rightStackC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo07UIStackC0CSgvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC028$__lazy_storage_$_rightStackC033_A2EAF8F6D6CDFACC355495275E6EA551LLSo07UIStackC0CSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 6,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "disposeBag",
+            "printedName": "disposeBag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DisposeBag",
+                "printedName": "RxSwift.DisposeBag",
+                "usr": "s:7RxSwift10DisposeBagC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK20LDBaseViewControllerC10disposeBag7RxSwift07DisposeF0Cvp",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10disposeBag7RxSwift07DisposeF0Cvp",
+            "moduleName": "LDIMSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 7,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DisposeBag",
+                    "printedName": "RxSwift.DisposeBag",
+                    "usr": "s:7RxSwift10DisposeBagC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK20LDBaseViewControllerC10disposeBag7RxSwift07DisposeF0Cvg",
+                "mangledName": "$s7LDIMSDK20LDBaseViewControllerC10disposeBag7RxSwift07DisposeF0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController(im)viewDidLoad",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC11viewDidLoadyyF",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDBaseViewController",
+                "printedName": "LDIMSDK.LDBaseViewController",
+                "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.LDBaseViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDBaseViewController",
+                    "printedName": "LDIMSDK.LDBaseViewController",
+                    "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController(im)initWithCoder:",
+            "mangledName": "$s7LDIMSDK20LDBaseViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController",
+        "mangledName": "$s7LDIMSDK20LDBaseViewControllerC",
+        "moduleName": "LDIMSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxDataSources",
+        "printedName": "RxDataSources",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RxGesture",
+        "printedName": "RxGesture",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LDIMSDK",
+        "printedName": "LDIMSDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getBundleImage",
+            "printedName": "getBundleImage(target:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDKAAC14getBundleImage6targetySo16UIViewControllerC_tFZ",
+            "mangledName": "$s7LDIMSDKAAC14getBundleImage6targetySo16UIViewControllerC_tFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shopPick",
+            "printedName": "shopPick(target:choiceArray:title:finishedCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDKAAC8shopPick6target11choiceArray5title16finishedCallbackySo16UIViewControllerC_SaySSGSSySi_SStctFZ",
+            "mangledName": "$s7LDIMSDKAAC8shopPick6target11choiceArray5title16finishedCallbackySo16UIViewControllerC_SaySSGSSySi_SStctFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getME",
+            "printedName": "getME()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDKAAC5getMESo16UIViewControllerCyFZ",
+            "mangledName": "$s7LDIMSDKAAC5getMESo16UIViewControllerCyFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDIMSDK",
+                "printedName": "LDIMSDK.LDIMSDK",
+                "usr": "c:@M@LDIMSDK@objc(cs)LDIMSDK"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDIMSDK(im)init",
+            "mangledName": "$s7LDIMSDKAACABycfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LDIMSDK@objc(cs)LDIMSDK",
+        "mangledName": "$s7LDIMSDKAAC",
+        "moduleName": "LDIMSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LDAboutMeAndContactMeViewController",
+        "printedName": "LDAboutMeAndContactMeViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "icon",
+            "printedName": "icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImageView",
+                "printedName": "UIKit.UIImageView",
+                "usr": "c:objc(cs)UIImageView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0Cvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0CvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC4iconSo07UIImageF0CvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_icon",
+            "printedName": "$__lazy_storage_$_icon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImageView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImageView",
+                    "printedName": "UIKit.UIImageView",
+                    "usr": "c:objc(cs)UIImageView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC22$__lazy_storage_$_icon33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo07UIImageF0CSgvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC22$__lazy_storage_$_icon33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo07UIImageF0CSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "versionLabel",
+            "printedName": "versionLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC12versionLabelSo7UILabelCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_versionLabel",
+            "printedName": "$__lazy_storage_$_versionLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC30$__lazy_storage_$_versionLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC30$__lazy_storage_$_versionLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "linkView",
+            "printedName": "linkView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRAboutMeView",
+                "printedName": "LDIMSDK.SRAboutMeView",
+                "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0Cvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0CvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC04linkF0AA07SRAboutcF0CvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_linkView",
+            "printedName": "$__lazy_storage_$_linkView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.SRAboutMeView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC022$__lazy_storage_$_linkF033_DE70D2F2AE95DF29D2092A0A2AB79382LLAA07SRAboutcF0CSgvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC022$__lazy_storage_$_linkF033_DE70D2F2AE95DF29D2092A0A2AB79382LLAA07SRAboutcF0CSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "contactView",
+            "printedName": "contactView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRAboutMeView",
+                "printedName": "LDIMSDK.SRAboutMeView",
+                "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0Cvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0CvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC07contactF0AA07SRAboutcF0CvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_contactView",
+            "printedName": "$__lazy_storage_$_contactView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.SRAboutMeView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC025$__lazy_storage_$_contactF033_DE70D2F2AE95DF29D2092A0A2AB79382LLAA07SRAboutcF0CSgvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC025$__lazy_storage_$_contactF033_DE70D2F2AE95DF29D2092A0A2AB79382LLAA07SRAboutcF0CSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "stackView",
+            "printedName": "stackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStackView",
+                "printedName": "UIKit.UIStackView",
+                "usr": "c:objc(cs)UIStackView"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0Cvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0CvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC05stackF0So07UIStackF0CvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_stackView",
+            "printedName": "$__lazy_storage_$_stackView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIStackView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStackView",
+                    "printedName": "UIKit.UIStackView",
+                    "usr": "c:objc(cs)UIStackView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC023$__lazy_storage_$_stackF033_DE70D2F2AE95DF29D2092A0A2AB79382LLSo07UIStackF0CSgvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC023$__lazy_storage_$_stackF033_DE70D2F2AE95DF29D2092A0A2AB79382LLSo07UIStackF0CSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "nameString",
+            "printedName": "nameString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvp",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvg",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvs",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvM",
+                "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC10nameStringSSvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController(im)viewDidLoad",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUI",
+            "printedName": "makeUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDK019LDAboutMeAndContactC14ViewControllerC6makeUIyyF",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC6makeUIyyF",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDAboutMeAndContactMeViewController",
+                "printedName": "LDIMSDK.LDAboutMeAndContactMeViewController",
+                "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.LDAboutMeAndContactMeViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDAboutMeAndContactMeViewController",
+                    "printedName": "LDIMSDK.LDAboutMeAndContactMeViewController",
+                    "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController(im)initWithCoder:",
+            "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LDIMSDK@objc(cs)LDAboutMeAndContactMeViewController",
+        "mangledName": "$s7LDIMSDK019LDAboutMeAndContactC14ViewControllerC",
+        "moduleName": "LDIMSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@LDIMSDK@objc(cs)LDBaseViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "LDIMSDK.LDBaseViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SRAboutMeView",
+        "printedName": "SRAboutMeView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "nameLabel",
+            "printedName": "nameLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvg",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvs",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvM",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9nameLabelSo7UILabelCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_nameLabel",
+            "printedName": "$__lazy_storage_$_nameLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC27$__lazy_storage_$_nameLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC27$__lazy_storage_$_nameLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "valueLabel",
+            "printedName": "valueLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvg",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvs",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvM",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC10valueLabelSo7UILabelCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_valueLabel",
+            "printedName": "$__lazy_storage_$_valueLabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC28$__lazy_storage_$_valueLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC28$__lazy_storage_$_valueLabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 1,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "linelabel",
+            "printedName": "linelabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UILabel",
+                "printedName": "UIKit.UILabel",
+                "usr": "c:objc(cs)UILabel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvp",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Lazy"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvg",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvg",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvs",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvs",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvM",
+                "mangledName": "$s7LDIMSDK13SRAboutMeViewC9linelabelSo7UILabelCvM",
+                "moduleName": "LDIMSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$__lazy_storage_$_linelabel",
+            "printedName": "$__lazy_storage_$_linelabel",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UILabel?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UILabel",
+                    "printedName": "UIKit.UILabel",
+                    "usr": "c:objc(cs)UILabel"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC27$__lazy_storage_$_linelabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC27$__lazy_storage_$_linelabel33_DE70D2F2AE95DF29D2092A0A2AB79382LLSo7UILabelCSgvp",
+            "moduleName": "LDIMSDK",
+            "implicit": true,
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 2,
+            "hasStorage": true
+          },
+          {
+            "kind": "Function",
+            "name": "makeUI",
+            "printedName": "makeUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDK13SRAboutMeViewC6makeUIyyF",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC6makeUIyyF",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SRAboutMeView",
+                "printedName": "LDIMSDK.SRAboutMeView",
+                "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView(im)initWithFrame:",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.SRAboutMeView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SRAboutMeView",
+                    "printedName": "LDIMSDK.SRAboutMeView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView(im)initWithCoder:",
+            "mangledName": "$s7LDIMSDK13SRAboutMeViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LDIMSDK@objc(cs)SRAboutMeView",
+        "mangledName": "$s7LDIMSDK13SRAboutMeViewC",
+        "moduleName": "LDIMSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@LDIMSDK@objc(cs)LDBaseView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "LDIMSDK.LDBaseView",
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LDBaseView",
+        "printedName": "LDBaseView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LDBaseView",
+                "printedName": "LDIMSDK.LDBaseView",
+                "usr": "c:@M@LDIMSDK@objc(cs)LDBaseView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDBaseView(im)initWithFrame:",
+            "mangledName": "$s7LDIMSDK10LDBaseViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LDIMSDK.LDBaseView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LDBaseView",
+                    "printedName": "LDIMSDK.LDBaseView",
+                    "usr": "c:@M@LDIMSDK@objc(cs)LDBaseView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LDIMSDK@objc(cs)LDBaseView(im)initWithCoder:",
+            "mangledName": "$s7LDIMSDK10LDBaseViewC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LDIMSDK",
+            "overriding": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "makeUI",
+            "printedName": "makeUI()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDK10LDBaseViewC6makeUIyyF",
+            "mangledName": "$s7LDIMSDK10LDBaseViewC6makeUIyyF",
+            "moduleName": "LDIMSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LDIMSDK@objc(cs)LDBaseView",
+        "mangledName": "$s7LDIMSDK10LDBaseViewC",
+        "moduleName": "LDIMSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ConstraintRelatableTarget",
+            "printedName": "ConstraintRelatableTarget",
+            "usr": "s:7SnapKit25ConstraintRelatableTargetP",
+            "mangledName": "$s7SnapKit25ConstraintRelatableTargetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LayoutConstraintItem",
+            "printedName": "LayoutConstraintItem",
+            "usr": "s:7SnapKit20LayoutConstraintItemP",
+            "mangledName": "$s7SnapKit20LayoutConstraintItemP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewBackgroundColor",
+            "printedName": "viewBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE19viewBackgroundColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE19viewBackgroundColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE19viewBackgroundColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE19viewBackgroundColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cellBackgroundColor",
+            "printedName": "cellBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE19cellBackgroundColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE19cellBackgroundColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE19cellBackgroundColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE19cellBackgroundColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sepratorColor",
+            "printedName": "sepratorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE13sepratorColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE13sepratorColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE13sepratorColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE13sepratorColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIImage",
+        "printedName": "UIImage",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "bundledImage",
+            "printedName": "bundledImage(named:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So7UIImageC7LDIMSDKE12bundledImage5namedABSS_tFZ",
+            "mangledName": "$sSo7UIImageC7LDIMSDKE12bundledImage5namedABSS_tFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIImage",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIImage",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByImageLiteral",
+            "printedName": "_ExpressibleByImageLiteral",
+            "usr": "s:s26_ExpressibleByImageLiteralP",
+            "mangledName": "$ss26_ExpressibleByImageLiteralP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 306,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 502,
+      "length": 8,
+      "value": "\"SRLeft\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 702,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1025,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1040,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1099,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1114,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1246,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1304,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1319,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1378,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1393,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1614,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/LDIMSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 1431,
+      "length": 11,
+      "value": "\"请选择\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 9,
+      "value": "\"icon-20\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 507,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 8,
+      "value": "\"官网\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 771,
+      "length": 35,
+      "value": "\"网址 https:\/\/www.youliaobf.com\/\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 861,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 876,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1018,
+      "length": 14,
+      "value": "\"联系我们\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1064,
+      "length": 31,
+      "value": "\"邮箱：youliaobifen@163.com\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1150,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1165,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2989,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3229,
+      "length": 2,
+      "value": "12"
+    }
+  ]
+}
