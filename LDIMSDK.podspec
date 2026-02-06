@@ -120,7 +120,8 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-
+   spec.vendored_framework  = "LDIMSDK.framework"
+   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
