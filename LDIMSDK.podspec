@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LDIMSDK"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "这是一个im的SDK"
 
   # This description is used to generate tags and improve search results.
@@ -94,9 +94,9 @@ Pod::Spec.new do |spec|
 
   #spec.source_files  = "LDIMSDK", "LDIMSDK/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
-  s.ios.deployment_target = '15.0'  # 必须 >= 12.0
-  s.swift_versions = ['5.0']        # 必须指定 Swift 版本
+
   # spec.public_header_files = "Classes/**/*.h"
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
