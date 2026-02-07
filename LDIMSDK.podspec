@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LDIMSDK"
-  spec.version      = "0.0.8"
+  spec.version      = "0.0.9"
   spec.summary      = "这是一个im的SDK"
 
   # This description is used to generate tags and improve search results.
@@ -65,7 +65,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.platform     = :ios
-   spec.platform     = :ios, "15.0"
+   spec.platform     = :ios, "12.0"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  #spec.source_files  = "LDIMSDK", "LDIMSDK/**/*.{h,m}"
+ # spec.source_files  = "LDIMSDK", "LDIMSDK/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -120,12 +120,18 @@ Pod::Spec.new do |spec|
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-   spec.vendored_framework  = "LDIMSDK.framework"
+
+   spec.vendored_frameworks  = "LDIMSDK.framework"
    spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
-
+  # 必须的框架
+   spec.frameworks = 'UIKit', 'Foundation'
+    # 静态框架
+   spec.static_framework = true
+   spec.ios.deployment_target = '12.0'
+   spec.swift_version = ['4.0']
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
@@ -140,4 +146,7 @@ Pod::Spec.new do |spec|
    spec.dependency "RxSwift"
    spec.dependency "RxDataSources"
    spec.dependency "RxGesture"
+   spec.dependency "Differentiator"
+   spec.dependency "RxRelay"
+   
 end

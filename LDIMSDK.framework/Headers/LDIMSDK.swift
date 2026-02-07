@@ -5,13 +5,13 @@
 //  Created by youliaobf on 2026/2/4.
 //
 
-import Foundation
-
-@_exported import RxSwift
-@_exported import RxCocoa
-@_exported import RxDataSources
-@_exported import RxGesture
-@_exported import SnapKit
+import UIKit
+import RxSwift
+import RxCocoa
+import RxGesture
+import RxDataSources
+import SVProgressHUD
+import SnapKit
 
 open class LDIMSDK: NSObject {
     
@@ -64,4 +64,49 @@ open class LDIMSDK: NSObject {
         return LDAboutMeAndContactMeViewController()
     }
     
+}
+
+open class LDAboutMeAndContactMeViewController: UIViewController {
+    
+    public var disposeBag: DisposeBag = DisposeBag()
+    
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        let button = UIButton()
+        button.setTitle("你好世界点击", for: .normal)
+        button.setTitleColor(.black, for: .normal)
+       // button.addTarget(self, action: #selector(Action), for: .touchUpInside)
+        self.view.addSubview(button)
+      //  button.frame = CGRect(x: 10, y: 100, width: 100, height: 100)
+//        button.rx.tap.bind { [weak self] in
+//            SVProgressHUD.show("666bucuo完成了")
+//        }.disposed(by: disposeBag)
+        button.snp.makeConstraints { make in
+            make.center.equalToSuperview()
+            make.width.height.equalTo(100)
+        }
+    }
+    
+    @objc public func Action(){
+        SVProgressHUD.show("666bucuo完成了")
+    }
+}
+extension SVProgressHUD {
+    static func show(_ message: String) {
+        setImageViewSize(.zero)
+        show(UIImage(), status: message)
+        setDefaultStyle(.dark)
+        dismiss(withDelay: 2)
+    }
+    static func showError(_ message: String) {
+        showError(withStatus: message)
+       // setDefaultStyle(.dark)
+        dismiss(withDelay: 1.5)
+    }
+    static func showSuccess(_ message: String) {
+        showSuccess(withStatus: message)
+       // setDefaultStyle(.dark)
+        dismiss(withDelay: 1.5)
+    }
+
 }

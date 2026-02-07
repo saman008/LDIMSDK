@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/LDIMSDK.h</key>
 		<data>
-		Lmw6GyESgQtPpXkhym8boP5bqb0=
+		W0SBIzxO6sgs6PCR1YdsI3BUYtw=
 		</data>
 		<key>Headers/LDIMSDK.swift</key>
 		<data>
-		+I0KpjFCbWEys4VhQKTfMJZL8vk=
+		v5ABnPcqc3u7ndv4PykQt5p2o4g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -55,19 +55,15 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		CY/o/t5OUk+Pv+xMU7OqunIQZiM=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<data>
-		ZKQEJ1w7AXSB3DL4jc+P7FQyWZg=
+		hOyNipGAvsmouuy56hJf5gyw2Ak=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		zylAF9NDsf9GUMlgMKKC9z5yCls=
+		ahkooXgp0QwcdjAORuCWVG1pxRA=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rWGo5c+9/1N6nh+SdkXmAvwCQPY=
+		qKXn1Tu43y1UYVG3yziRScxSGAg=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -75,31 +71,11 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rWGo5c+9/1N6nh+SdkXmAvwCQPY=
+		qKXn1Tu43y1UYVG3yziRScxSGAg=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lgaDhPOAZY3VOrfvAYhzV24q0jU=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<data>
-		zylAF9NDsf9GUMlgMKKC9z5yCls=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<data>
-		/DEkVFhANXGsmdaAN0dg3umqDsI=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		z7c5WPERRGfFZiJ/ul4YZEjeteg=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<data>
-		/DEkVFhANXGsmdaAN0dg3umqDsI=
-		</data>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		PcsmURt3A7VJVkxxDuDFzU1nzJw=
+		JCTcZf7MBT5/lK0Mp51CnAZG6hc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -108,14 +84,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NULPdSdGDPUI0wXBMSO4N8BnBNwyIqf8vsyLF4Gi72w=
+			qYN1qGG4o/Wc31PPs8oVc/SlYL6CX3iggUNy7PNZw6g=
 			</data>
 		</dict>
 		<key>Headers/LDIMSDK.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RluJ0m7fD7tdH9Xj8btWfklStuKSTRsk5lg5zn9M6Ss=
+			tbu1TMu7ocZzOW2D85PGtZ/uOX9HFpymstDd8GBLPmg=
 			</data>
 		</dict>
 		<key>LDIMSDK.bundle/Root.plist</key>
@@ -180,28 +156,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Exh1xnWkLpXhZiksfT/HTymhp04JmAgTRJPsMrgpBco=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KqY35KHNQQs+If8kGW56dP2rn+LnlOZ2Y4bEMja0XTU=
+			Kc+rb9Wm3wqrkia1W/tfQTJqMVMyeh3rqqP9I0u70ao=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gUguACjBqoZnAqKwha8Vz+Dt0OQbAzirqS8xXc1R+oQ=
+			runXJiKg/IUdXviFC0bvVLnqpn4FgvBYTV4pbbQkcXQ=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4l4sy+w68Ts4zWgP2fWnA+jVKTEAVvPPlunhGDZYJg=
+			FeH3x6yzgs9bzf0vFOjUTUCZCDyEEbP2zJYQRDkuBWw=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -215,49 +184,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4l4sy+w68Ts4zWgP2fWnA+jVKTEAVvPPlunhGDZYJg=
+			FeH3x6yzgs9bzf0vFOjUTUCZCDyEEbP2zJYQRDkuBWw=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z61etOO2n41gjwyaZLCO/vZL+4ha15rwT7umKuHt4Dw=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gUguACjBqoZnAqKwha8Vz+Dt0OQbAzirqS8xXc1R+oQ=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5Dutd95VP8PkUovsWqLhnSedO9N9Nbq5Zy5G2IAc4xM=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VS//wdUSYah1RnYCmqiFT4kh4XCrg1jKN7M06FDbCeA=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5Dutd95VP8PkUovsWqLhnSedO9N9Nbq5Zy5G2IAc4xM=
-			</data>
-		</dict>
-		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LdSjaa5pJSUbLjGSbbd1cK+ItrPFrdiE3QJ+qlQgLRI=
+			bgArzDDLKs8jkw7PvJMFUOPXhfXUdaehEwk77G6LvDY=
 			</data>
 		</dict>
 	</dict>
