@@ -25,27 +25,27 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>LDIMSDK.bundle/icon-20@3x.png</key>
+		<key>LDIMSDK.bundle/icon-20.png</key>
 		<data>
 		5MEsndvcN0f5LbrBBW0QTO13wVc=
 		</data>
-		<key>LDIMSDK.bundle/icon-30@3x.png</key>
+		<key>LDIMSDK.bundle/icon-30.png</key>
 		<data>
 		LNoLpk1iQeCx77CTqBSAJQzf+K0=
 		</data>
-		<key>LDIMSDK.bundle/icon-40@3x.png</key>
+		<key>LDIMSDK.bundle/icon-40.png</key>
 		<data>
 		lZJz3RLZup+n/u2PPDVZnXx+I6A=
 		</data>
-		<key>LDIMSDK.bundle/icon-50@3x.png</key>
+		<key>LDIMSDK.bundle/icon-50.png</key>
 		<data>
 		NZzz3Do6rPHSRVC3XhlKXoupGpE=
 		</data>
-		<key>LDIMSDK.bundle/icon-60@3x.png</key>
+		<key>LDIMSDK.bundle/icon-60.png</key>
 		<data>
 		P0ktDmjVP5DelNMntBDi7tsxt/0=
 		</data>
-		<key>LDIMSDK.bundle/icon-70@3x.png</key>
+		<key>LDIMSDK.bundle/icon-70.png</key>
 		<data>
 		O9BBve1K4io35eSCT3yNUiDZHNk=
 		</data>
@@ -67,7 +67,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		52qPiADNCet9ulvkCGcHZFzQJ1g=
+		9e60zowBADgZx7/5s+FNt7MwLzA=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -87,7 +87,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RARTJ8wmeZAcVQGyUyzYKM1Zp+U=
+		9tJiydTGIRiF8DnZA1xt2TU37So=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -115,42 +115,42 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>LDIMSDK.bundle/icon-20@3x.png</key>
+		<key>LDIMSDK.bundle/icon-20.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Z1H3lasXHh0lEkez7uSXJUkiadf/6rCoIjzPh5uIkCQ=
 			</data>
 		</dict>
-		<key>LDIMSDK.bundle/icon-30@3x.png</key>
+		<key>LDIMSDK.bundle/icon-30.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			k2G8Oc/2O4vMT/7s2rTGCQqVJYG2lI6Uq4gdYMEjnTI=
 			</data>
 		</dict>
-		<key>LDIMSDK.bundle/icon-40@3x.png</key>
+		<key>LDIMSDK.bundle/icon-40.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			UBSO/RBRD0aqAp/agAd3Bfz9zZsY8y2OTArnH1g9yrM=
 			</data>
 		</dict>
-		<key>LDIMSDK.bundle/icon-50@3x.png</key>
+		<key>LDIMSDK.bundle/icon-50.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			uZoKLryDjWxHNIz44fU96JVY4cxQ2MkNjnr4TVMhbDM=
 			</data>
 		</dict>
-		<key>LDIMSDK.bundle/icon-60@3x.png</key>
+		<key>LDIMSDK.bundle/icon-60.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			d75b7yWmW9wRwyZeCmP4Lu2v0wdOtybTp69Pr2/G8es=
 			</data>
 		</dict>
-		<key>LDIMSDK.bundle/icon-70@3x.png</key>
+		<key>LDIMSDK.bundle/icon-70.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
@@ -189,7 +189,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+9i1zLSmc7GdueEBW7UaTyDMrAfG6IpzrSDj/PSm2a0=
+			ZTbEOz3RvDaRVgd1gSRIr8qPZILcFLdFjlgtLWAhDCs=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -224,7 +224,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FgUC+/5pxotBICRfk383p7KgejwsFpAXxLLe8GZ+Xk=
+			bJxaa2fP0a6PcH5BA/MeOxZu10L+0/dHtoOLzfBSXww=
 			</data>
 		</dict>
 	</dict>
