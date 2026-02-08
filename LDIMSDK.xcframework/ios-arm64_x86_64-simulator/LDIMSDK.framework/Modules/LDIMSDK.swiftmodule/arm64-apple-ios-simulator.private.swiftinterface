@@ -13,10 +13,16 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+extension UIKit.UIColor {
+  public static let viewBackgroundColor: UIKit.UIColor
+  public static let cellBackgroundColor: UIKit.UIColor
+  public static let sepratorColor: UIKit.UIColor
+}
 @objc @_inheritsConvenienceInitializers open class LDIMSDK : ObjectiveC.NSObject {
   public static func getBundleImage(target: UIKit.UIViewController)
   public static func shopPick(target: UIKit.UIViewController, choiceArray: [Swift.String], title: Swift.String = "请选择", finishedCallback: @escaping (_ index: Swift.Int, _ json: Swift.String) -> ())
   public static func getME() -> UIKit.UIViewController
+  public static func getAboutME() -> UIKit.UIViewController
   @objc override dynamic public init()
   @objc deinit
 }

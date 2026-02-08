@@ -58,8 +58,11 @@ open class LDIMSDK: NSObject {
 
         return LDAboutMeAndContactMeViewController()
     }
+    public static func getAboutME() -> UIViewController{
+
+        return LDMEAboutMeAndContactMeViewController()
+    }
     
 }
-
 
 

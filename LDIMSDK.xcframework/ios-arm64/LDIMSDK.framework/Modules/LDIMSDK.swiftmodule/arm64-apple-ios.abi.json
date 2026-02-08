@@ -67,6 +67,50 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SnapKit",
+        "printedName": "SnapKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "LDIMSDK",
         "printedName": "LDIMSDK",
@@ -194,6 +238,29 @@
             "declKind": "Func",
             "usr": "s:7LDIMSDKAAC5getMESo16UIViewControllerCyFZ",
             "mangledName": "$s7LDIMSDKAAC5getMESo16UIViewControllerCyFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAboutME",
+            "printedName": "getAboutME()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDKAAC10getAboutMESo16UIViewControllerCyFZ",
+            "mangledName": "$s7LDIMSDKAAC10getAboutMESo16UIViewControllerCyFZ",
             "moduleName": "LDIMSDK",
             "static": true,
             "declAttributes": [
@@ -340,11 +407,522 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIColor",
+        "printedName": "UIColor",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "viewBackgroundColor",
+            "printedName": "viewBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE19viewBackgroundColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE19viewBackgroundColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE19viewBackgroundColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE19viewBackgroundColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cellBackgroundColor",
+            "printedName": "cellBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE19cellBackgroundColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE19cellBackgroundColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE19cellBackgroundColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE19cellBackgroundColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sepratorColor",
+            "printedName": "sepratorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So7UIColorC7LDIMSDKE13sepratorColorABvpZ",
+            "mangledName": "$sSo7UIColorC7LDIMSDKE13sepratorColorABvpZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So7UIColorC7LDIMSDKE13sepratorColorABvgZ",
+                "mangledName": "$sSo7UIColorC7LDIMSDKE13sepratorColorABvgZ",
+                "moduleName": "LDIMSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIColor",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIColor",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "SynthesizedProtocol",
+          "NonSendable",
+          "Sendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByColorLiteral",
+            "printedName": "_ExpressibleByColorLiteral",
+            "usr": "s:s26_ExpressibleByColorLiteralP",
+            "mangledName": "$ss26_ExpressibleByColorLiteralP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 320,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 516,
+      "length": 8,
+      "value": "\"SRLeft\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 716,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 981,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1039,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1113,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1128,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1260,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1333,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1392,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1407,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1628,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 9,
+      "value": "\"icon-20\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 524,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 600,
+      "length": 7,
+      "value": "\"1.0.0\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 748,
+      "length": 8,
+      "value": "\"官网\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 788,
+      "length": 35,
+      "value": "\"网址 https:\/\/www.youliaobf.com\/\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 878,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 893,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1035,
+      "length": 14,
+      "value": "\"联系我们\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1081,
+      "length": 31,
+      "value": "\"邮箱：youliaobifen@163.com\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1167,
+      "length": 2,
+      "value": "36"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1182,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1575,
+      "length": 9,
+      "value": "\"icon-70\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1640,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1655,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1723,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3257,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3497,
+      "length": 2,
+      "value": "12"
+    },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/LDIMSDK.swift",
       "kind": "StringLiteral",
