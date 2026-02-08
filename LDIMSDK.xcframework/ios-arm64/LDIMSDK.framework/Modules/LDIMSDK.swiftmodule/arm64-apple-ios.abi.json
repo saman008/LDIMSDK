@@ -409,6 +409,34 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "LDIMSDK"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UIColor",
         "printedName": "UIColor",
@@ -929,6 +957,55 @@
       "offset": 1288,
       "length": 11,
       "value": "\"请选择\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 726,
+      "length": 9,
+      "value": "\"icon-20\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 9,
+      "value": "\"icon-30\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 990,
+      "length": 9,
+      "value": "\"icon-40\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1122,
+      "length": 9,
+      "value": "\"icon-50\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 9,
+      "value": "\"icon-60\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1386,
+      "length": 9,
+      "value": "\"icon-70\""
+    },
+    {
+      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
+      "length": 11,
+      "value": "\"icon-70 2\""
     }
   ]
 }
