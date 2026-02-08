@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LDIMSDK.swift</key>
 		<data>
-		fEngGi4L7AHhYgqayzkwlAyCiF8=
+		rpim4aOuxm2+bYktuAdpTYMmcr4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,7 +43,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		VAql6v/C+xlLXnXLzP9zWDXv/44=
+		tTgHsxKN7/pGhcP045Eo8AhLiC4=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -59,11 +59,11 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PAcZOp9rVhZQFq+9/WTWx+kqdhs=
+		p+qKbOSJvmj2kiUvsFkJFVDk/uE=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		VAql6v/C+xlLXnXLzP9zWDXv/44=
+		tTgHsxKN7/pGhcP045Eo8AhLiC4=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -79,7 +79,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zEwdOFm6xwzbSgi6dSp9IwXu5LM=
+		haDGYzedhj7BBVpZjPO/BrcWoKs=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9nuGTaAfsJs2ZkrpK+5eKuesnHQHNMfRJ/4oOqhY0ak=
+			35/olvfo5Skvh/09HesxzPhKUa1YbBM8QLQdQ2qy97g=
 			</data>
 		</dict>
 		<key>LDIMSDK.bundle/Root.plist</key>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zlf490XX56q4kDMe53bo+004iJM+bcNofKvuu3EmKYc=
+			4V9xZqho16pmke0I5fqMvllEZRVfoTRbdkrWql7pjKc=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -167,14 +167,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YKyEVDKu+f23qBFmd6BOlEK19uJFwVSbb3eB5hGSNAw=
+			CiltQWcv1ZxtYs/7dgF7+z64/etjt9z9IOkZYECG4Rg=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zlf490XX56q4kDMe53bo+004iJM+bcNofKvuu3EmKYc=
+			4V9xZqho16pmke0I5fqMvllEZRVfoTRbdkrWql7pjKc=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -202,7 +202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			E+T+kQi4wjtmR55U6DvqyHmCzFItcuKAGH44nbfmkys=
+			RpHK+w91CEsRgIiL0dfTol30BSvavi9DD/KBSe/IiuM=
 			</data>
 		</dict>
 	</dict>
