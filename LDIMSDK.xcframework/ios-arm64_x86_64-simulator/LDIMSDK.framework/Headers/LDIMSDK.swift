@@ -76,3 +76,19 @@ open class LDIMSDK: NSObject {
 }
 
 
+public class LDIM {
+    
+    /// SDK 内部使用的 Bundle，不对外暴露
+    static var sdkBundle: Bundle {
+        Bundle(for: LDIM.self)
+    }
+    
+}
+extension UIImage {
+    /// 从 SDK 所在 Bundle 加载图片，便于以 Framework 形式集成时正确找到资源；找不到时回退到 main Bundle
+    static func sdk(named name: String) -> UIImage? {
+        UIImage(named: name, in: LDIM.sdkBundle, compatibleWith: nil)
+        ?? UIImage(named: name)
+    }
+    
+}

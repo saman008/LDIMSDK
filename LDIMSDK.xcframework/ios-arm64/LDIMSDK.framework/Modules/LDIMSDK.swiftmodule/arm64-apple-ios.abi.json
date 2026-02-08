@@ -406,6 +406,35 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "LDIM",
+        "printedName": "LDIM",
+        "declKind": "Class",
+        "usr": "s:7LDIMSDK4LDIMC",
+        "mangledName": "$s7LDIMSDK4LDIMC",
+        "moduleName": "LDIMSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
