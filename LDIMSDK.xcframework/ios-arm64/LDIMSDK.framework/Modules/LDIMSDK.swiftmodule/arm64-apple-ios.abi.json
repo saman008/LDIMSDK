@@ -744,91 +744,91 @@
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 516,
-      "length": 8,
-      "value": "\"SRLeft\""
+      "offset": 566,
+      "length": 9,
+      "value": "\"icon-60\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 716,
+      "offset": 767,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 981,
+      "offset": 1032,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1090,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1054,
+      "offset": 1105,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1113,
+      "offset": 1164,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1128,
+      "offset": 1179,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1260,
+      "offset": 1311,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1318,
+      "offset": 1369,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1333,
+      "offset": 1384,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1392,
+      "offset": 1443,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1407,
+      "offset": 1458,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1628,
+      "offset": 1679,
       "length": 2,
       "value": "16"
     },
