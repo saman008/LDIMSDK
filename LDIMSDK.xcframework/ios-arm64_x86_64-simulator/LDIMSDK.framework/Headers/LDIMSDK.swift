@@ -23,11 +23,12 @@ open class LDIMSDK: NSObject {
         print(img3)
         print(img4)
         print(img5)
-        if let image = img {
-            SVProgressHUD.show("✅ \(image) 加载成功: \(image.size)")
+        if let image = UIImage.bundledImage(fileName: "icon-40.png"){
+            print("✅ \(image) 加载成功: \(image.size)")
         } else {
-            SVProgressHUD.show("❌ \(img) 加载失败")
+            print("❌ 加载失败")
         }
+        
         let imageview1 = UIImageView(image: img)
         imageview1.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         let imageview2 = UIImageView(image: img2)
