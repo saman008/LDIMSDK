@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/LDIMSDK.swift</key>
 		<data>
-		YGOER8kZP0Nevkp+zYwsIwMb3Z4=
+		Dk+6kbLcz8jDl8xGjgTsVcR+dPM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -43,7 +43,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		jCW7OE9ez/Rj/QpYhJ+vgUPf8UU=
+		RexTRzqiBLUuMuxPKq9bPnN7yuY=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -63,7 +63,7 @@
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		jCW7OE9ez/Rj/QpYhJ+vgUPf8UU=
+		RexTRzqiBLUuMuxPKq9bPnN7yuY=
 		</data>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -95,7 +95,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2UeXu+Pg8shHOqyQ7A2AyUO1S3C3bdoep/GWywladQA=
+			k9WjTBzWhetuQADbcQq3kOiQuQRdhXX9FjdLRRjoRCM=
 			</data>
 		</dict>
 		<key>LDIMSDK.bundle/Root.plist</key>
@@ -139,7 +139,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSstcgLAswN0EYdJzLjtxEobu7XQoo2eHs+ivooeGFM=
+			8ILaxt02zs2LOJxptjcT8tcnJKbgflxNoJFCJmJtu08=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -174,7 +174,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tSstcgLAswN0EYdJzLjtxEobu7XQoo2eHs+ivooeGFM=
+			8ILaxt02zs2LOJxptjcT8tcnJKbgflxNoJFCJmJtu08=
 			</data>
 		</dict>
 		<key>Modules/LDIMSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

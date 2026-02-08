@@ -28,7 +28,11 @@ open class LDIMSDK: NSObject {
         } else {
             print("❌ 加载失败")
         }
-        
+        if let image = UIImage.init(named: "icon-40"){
+            print("✅ \(image) 加载成功: \(image.size)")
+        } else {
+            print("❌ 加载失败")
+        }
         let imageview1 = UIImageView(image: img)
         imageview1.frame = CGRect(x: 100, y: 100, width: 100, height: 100)
         let imageview2 = UIImageView(image: img2)
