@@ -1006,13 +1006,6 @@
       "offset": 1386,
       "length": 9,
       "value": "\"icon-70\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1521,
-      "length": 11,
-      "value": "\"icon-70 2\""
     }
   ]
 }

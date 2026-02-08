@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LDIMSDK"
-  spec.version      = "0.0.24"
+  spec.version      = "0.0.25"
   spec.summary      = "这是一个im的SDK"
 
   # This description is used to generate tags and improve search results.
@@ -99,7 +99,6 @@ Pod::Spec.new do |spec|
 
    spec.resource_bundles = {
     "LDIMSDK" => [
-      "LDIMSDK/LDIMSDKAssets.xcassets",
       "LDIMSDK/LDIMSDK.bundle/**/*.{png,jpg,jpeg,pdf,json,plist,strings,xib,storyboard}"
     ]
   }
