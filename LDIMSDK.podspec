@@ -96,7 +96,7 @@ Pod::Spec.new do |spec|
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-
+#spec.source_files = 'LDIMSDK/*.{swift,h,m}'
    spec.resource_bundles = {
     "LDIMSDK" => [
       "LDIMSDK/LDIMSDK.bundle/**/*.{png,jpg,jpeg,pdf,json,plist,strings,xib,storyboard}"

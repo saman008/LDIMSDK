@@ -277,6 +277,43 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "stringToImage",
+            "printedName": "stringToImage(named:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7LDIMSDKAAC13stringToImage5namedSo7UIImageCSgSS_tFZ",
+            "mangledName": "$s7LDIMSDKAAC13stringToImage5namedSo7UIImageCSgSS_tFZ",
+            "moduleName": "LDIMSDK",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -443,34 +480,6 @@
         "declAttributes": [
           "RawDocComment"
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "LDIMSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "LDIMSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "LDIMSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "LDIMSDK"
       },
       {
         "kind": "TypeDecl",
@@ -780,91 +789,91 @@
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 566,
-      "length": 9,
-      "value": "\"icon-60\""
+      "offset": 558,
+      "length": 8,
+      "value": "\"123456\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 767,
+      "offset": 758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1032,
+      "offset": 1023,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1090,
+      "offset": 1081,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1105,
+      "offset": 1096,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1164,
+      "offset": 1155,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1179,
+      "offset": 1170,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1311,
+      "offset": 1302,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1369,
+      "offset": 1360,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1384,
+      "offset": 1375,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1443,
+      "offset": 1434,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1458,
+      "offset": 1449,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/Base\/LDBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1679,
+      "offset": 1670,
       "length": 2,
       "value": "16"
     },
@@ -872,118 +881,118 @@
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
       "offset": 321,
-      "length": 13,
-      "value": "\"icon-20.png\""
+      "length": 9,
+      "value": "\"icon-20\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 537,
+      "offset": 533,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 609,
       "length": 7,
       "value": "\"1.0.0\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 761,
+      "offset": 757,
       "length": 8,
       "value": "\"官网\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 801,
+      "offset": 797,
       "length": 35,
       "value": "\"网址 https:\/\/www.youliaobf.com\/\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 891,
+      "offset": 887,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 906,
+      "offset": 902,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1048,
+      "offset": 1044,
       "length": 14,
       "value": "\"联系我们\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1094,
+      "offset": 1090,
       "length": 31,
       "value": "\"邮箱：youliaobifen@163.com\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1180,
+      "offset": 1176,
       "length": 2,
       "value": "36"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1195,
+      "offset": 1191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
-      "length": 13,
-      "value": "\"icon-70.png\""
+      "offset": 1584,
+      "length": 9,
+      "value": "\"icon-70\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1657,
+      "offset": 1649,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1672,
+      "offset": 1664,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1740,
+      "offset": 1732,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3274,
+      "offset": 3266,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/youliaobf\/Desktop\/LDIMSDK\/LDIMSDK\/LDIMSDK\/main\/pages\/me\/LDMEAboutMeAndContactMeViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3514,
+      "offset": 3506,
       "length": 2,
       "value": "12"
     },
@@ -993,48 +1002,6 @@
       "offset": 1687,
       "length": 11,
       "value": "\"请选择\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 726,
-      "length": 9,
-      "value": "\"icon-20\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 858,
-      "length": 9,
-      "value": "\"icon-30\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 990,
-      "length": 9,
-      "value": "\"icon-40\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1122,
-      "length": 9,
-      "value": "\"icon-50\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 9,
-      "value": "\"icon-60\""
-    },
-    {
-      "filePath": "\/Users\/youliaobf\/Library\/Developer\/Xcode\/DerivedData\/LDIMSDK-egpsrpqejeargpevbaaeudqczany\/Build\/Intermediates.noindex\/ArchiveIntermediates\/LDIMSDK\/IntermediateBuildFilesPath\/LDIMSDK.build\/Release-iphoneos\/LDIMSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1386,
-      "length": 9,
-      "value": "\"icon-70\""
     }
   ]
 }

@@ -72,6 +72,9 @@ open class LDIMSDK: NSObject {
 
         return LDMEAboutMeAndContactMeViewController()
     }
+    public  static func stringToImage(named imageName: String) -> UIImage? {
+        return UIImage.bundledImage(named: imageName)
+    }
     
 }
 
