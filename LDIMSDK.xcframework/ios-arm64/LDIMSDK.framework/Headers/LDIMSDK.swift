@@ -28,7 +28,7 @@ open class LDIMSDK: NSObject {
         } else {
             print("❌ 加载失败")
         }
-        if let image = UIImage.init(named: "icon-40"){
+        if let image = UIImage.bundledImage(fileName: "icon-20.png"){
             print("✅ \(image) 加载成功: \(image.size)")
         } else {
             print("❌ 加载失败")
