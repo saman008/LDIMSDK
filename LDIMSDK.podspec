@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LDIMSDK"
-  spec.version      = "0.0.31"
+  spec.version      = "0.0.32"
   spec.summary      = "这是一个im的SDK"
 
   # This description is used to generate tags and improve search results.
@@ -92,14 +92,14 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "LDIMSDK", "LDIMSDK/**/*.{h,m}"
+  #spec.source_files  = "LDIMSDK", "LDIMSDK/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-#spec.source_files = 'LDIMSDK/*.{swift,h,m}'
-   spec.resource_bundles = {
-    "LDIMSDK" => [
-      "LDIMSDK/LDIMSDK.bundle/**/*.{png,jpg,jpeg,pdf,json,plist,strings,xib,storyboard}"
+  spec.source_files = 'LDIMSDK/*.{swift,h,m}'
+  spec.resource_bundles = {
+    'LDIMSDK' => [
+      'LDIMSDK.xcframework/*/LDIMSDK.framework/LDIMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,jpg,jpeg,strings,mp3,plist}'
     ]
   }
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
