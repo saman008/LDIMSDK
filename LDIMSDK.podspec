@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LDIMSDK"
-  spec.version      = "0.0.32"
+  spec.version      = "0.0.33"
   spec.summary      = "这是一个im的SDK"
 
   # This description is used to generate tags and improve search results.
@@ -99,7 +99,7 @@ Pod::Spec.new do |spec|
   spec.source_files = 'LDIMSDK/*.{swift,h,m}'
   spec.resource_bundles = {
     'LDIMSDK' => [
-      'LDIMSDK.xcframework/*/LDIMSDK.framework/LDIMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,jpg,jpeg,strings,mp3,plist}'
+      'LDIMSDK.xcframework/ios-arm64/LDIMSDK.framework/LDIMSDK.bundle/**/*.{storyboard,xib,xcassets,json,imageset,png,jpg,jpeg,strings,mp3,plist}'
     ]
   }
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
